@@ -14,6 +14,10 @@ set hidden " current buffer can be put into background
 set showcmd " show incomplete commands
 set noshowmode " don't show which mode disabled for PowerLine
 
+" Set english UI language
+set langmenu=en_US
+let $LANG='en_US'
+
 " Tab control
 set smarttab " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
 set tabstop=2 " the visible width of tabs

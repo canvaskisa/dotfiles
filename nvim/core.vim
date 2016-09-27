@@ -13,6 +13,7 @@ set wildmenu " enhanced command line completion
 set hidden " current buffer can be put into background
 set showcmd " show incomplete commands
 set noshowmode " don't show which mode disabled for PowerLine
+set nowrap " prevent lines from wrapping
 
 " Set english UI language
 set langmenu=en_US
@@ -22,8 +23,8 @@ let $LANG='en_US'
 set smarttab " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
 set tabstop=2 " the visible width of tabs
 set softtabstop=2 " edit as if the tabs are 2 characters wide
+set expandtab " use spaces instead of tabs
 set shiftwidth=2 " number of spaces to use for indent and unindent
-set shiftround " round indent to a multiple of 'shiftwidth'
 
 " Searching
 set ignorecase " case insensitive searching

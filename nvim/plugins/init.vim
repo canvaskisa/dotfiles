@@ -28,10 +28,9 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Plug 'mileszs/ack.vim' " File search via ack
 Plug 'scrooloose/nerdcommenter'
 
-Plug 'jiangmiao/auto-pairs' " automatic closing of quotes, parenthesis, brackets, etc.
-
 " Plug 'tpope/vim-commentary' " comment stuff out
 Plug 'tpope/vim-unimpaired' " mappings which are simply short normal mode aliases for commonly used ex commands
+Plug 'Raimondi/delimitMate' " Autoclose of quotes, parenthesis, brackets, etc.
 
 Plug 'Shougo/deoplete.nvim' " Deoplete
 

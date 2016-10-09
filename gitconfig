@@ -1,5 +1,12 @@
 [user]
-	name = Aleksandr Yakunichev
-	email = canvaskisa@gmail.com
+  name = Aleksandr Yakunichev
+  email = canvaskisa@gmail.com
 [core]
-	editor = nvim
+  editor = nvim
+[alias]
+  a = add
+  aa = add .
+  co = checkout
+  ci = commit
+  pf = push --force-with-lease
+  st = status

@@ -37,4 +37,6 @@ Plug 'Shougo/deoplete.nvim' " Deoplete
 " Start screen
 Plug 'mhinz/vim-startify'
 
+Plug 'dag/vim-fish' " Fish syntax and features
+
 call plug#end()

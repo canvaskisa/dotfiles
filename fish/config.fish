@@ -7,3 +7,5 @@ alias g "git"
 
 alias wttr "curl wttr.in"
 alias wttrmn "curl wttr.in/moon"
+
+set -gx PATH $HOME/.yarn/bin $PATH

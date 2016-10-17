@@ -3,6 +3,8 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'vim-airline/vim-airline' " fancy statusline
 Plug 'vim-airline/vim-airline-themes' " themes for vim-airline
 
+Plug 'hhsnopek/vim-sugarss' " Sugarss syntax
+
 Plug 'tpope/vim-fugitive' " amazing git wrapper for vim
 
 Plug 'editorconfig/editorconfig-vim' " .editorconfig support

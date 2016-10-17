@@ -45,3 +45,6 @@ highlight Comment cterm=italic
 
 " Draw html arg as italic
 highlight htmlArg cterm=italic
+
+" Set weird .pcss extension to css filetype
+au BufRead,BufNewFile *.pcss set filetype=css

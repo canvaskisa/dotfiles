@@ -41,4 +41,10 @@ Plug 'mhinz/vim-startify'
 
 Plug 'dag/vim-fish' " Fish syntax and features
 
+" Distraction-free writing
+Plug 'junegunn/goyo.vim'
+
+" Hyperfocus writing
+Plug 'junegunn/limelight.vim'
+
 call plug#end()

@@ -10,6 +10,7 @@ Plug 'tpope/vim-fugitive' " amazing git wrapper for vim
 Plug 'editorconfig/editorconfig-vim' " .editorconfig support
 
 Plug 'mhartington/oceanic-next' " theme
+Plug 'junegunn/seoul256.vim' " theme x2
 
 Plug 'vim-scripts/matchit.zip' " extended % matching
 
@@ -30,6 +31,9 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 " Plug 'mileszs/ack.vim' " File search via ack
 Plug 'scrooloose/nerdcommenter'
 
+Plug 'dracula/vim' " theme
+Plug 'nanotech/jellybeans.vim'
+
 " Plug 'tpope/vim-commentary' " comment stuff out
 Plug 'tpope/vim-unimpaired' " mappings which are simply short normal mode aliases for commonly used ex commands
 Plug 'Raimondi/delimitMate' " Autoclose of quotes, parenthesis, brackets, etc.
@@ -42,9 +46,9 @@ Plug 'mhinz/vim-startify'
 Plug 'dag/vim-fish' " Fish syntax and features
 
 " Distraction-free writing
-Plug 'junegunn/goyo.vim'
+Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 
 " Hyperfocus writing
-Plug 'junegunn/limelight.vim'
+Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
 
 call plug#end()

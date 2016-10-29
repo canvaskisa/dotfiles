@@ -51,4 +51,7 @@ Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
 " Hyperfocus writing
 Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
 
+" Elm
+Plug 'lambdatoast/elm.vim', { 'for': 'elm' }
+
 call plug#end()

@@ -3,14 +3,11 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'vim-airline/vim-airline' " fancy statusline
 Plug 'vim-airline/vim-airline-themes' " themes for vim-airline
 
-Plug 'hhsnopek/vim-sugarss' " Sugarss syntax
+Plug 'hhsnopek/vim-sugarss', { 'for': 'sugarss' } " Sugarss syntax
 
 Plug 'tpope/vim-fugitive' " amazing git wrapper for vim
 
 Plug 'editorconfig/editorconfig-vim' " .editorconfig support
-
-Plug 'mhartington/oceanic-next' " theme
-Plug 'junegunn/seoul256.vim' " theme x2
 
 Plug 'vim-scripts/matchit.zip' " extended % matching
 
@@ -28,17 +25,15 @@ Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
-" Plug 'mileszs/ack.vim' " File search via ack
 Plug 'scrooloose/nerdcommenter'
 
 Plug 'dracula/vim' " theme
-Plug 'nanotech/jellybeans.vim'
 
 " Plug 'tpope/vim-commentary' " comment stuff out
 Plug 'tpope/vim-unimpaired' " mappings which are simply short normal mode aliases for commonly used ex commands
 Plug 'Raimondi/delimitMate' " Autoclose of quotes, parenthesis, brackets, etc.
 
-Plug 'Shougo/deoplete.nvim' " Deoplete
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Deoplete
 
 " Start screen
 Plug 'mhinz/vim-startify'

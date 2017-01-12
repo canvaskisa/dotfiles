@@ -3,5 +3,6 @@ set termguicolors
 
 " Theme
 syntax on
-color dracula
+color jellybeans
 set background=dark
+let g:jellybeans_use_term_italics=1

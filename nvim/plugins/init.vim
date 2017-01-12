@@ -1,52 +1,36 @@
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'vim-airline/vim-airline' " fancy statusline
-Plug 'vim-airline/vim-airline-themes' " themes for vim-airline
+" Theme
+" -----
+Plug 'nanotech/jellybeans.vim' " A colorful, dark color scheme
 
-Plug 'hhsnopek/vim-sugarss', { 'for': 'sugarss' } " Sugarss syntax
-
-Plug 'tpope/vim-fugitive' " amazing git wrapper for vim
-
-Plug 'editorconfig/editorconfig-vim' " .editorconfig support
-
-Plug 'vim-scripts/matchit.zip' " extended % matching
-
-Plug 'othree/html5.vim', { 'for': 'html' } " html5 support
-Plug 'mustache/vim-mustache-handlebars' " mustache support
-
-Plug 'dyng/ctrlsf.vim' " file search
-
-Plug 'pangloss/vim-javascript', { 'for': ['jsx', 'javascript'] } " JS Syntax
-Plug 'mxw/vim-jsx', { 'for': ['jsx', 'javascript'] } " JSX support
-
-Plug 'hail2u/vim-css3-syntax', { 'for': 'css' } " CSS3 syntax support
-
-Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
-
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-
-Plug 'scrooloose/nerdcommenter'
-
-Plug 'dracula/vim' " theme
-
-" Plug 'tpope/vim-commentary' " comment stuff out
-Plug 'tpope/vim-unimpaired' " mappings which are simply short normal mode aliases for commonly used ex commands
+" Extensions
+" ----------
+Plug 'mhinz/vim-startify' " Custom start screen
+Plug 'vim-airline/vim-airline' " Fancy statusline
+Plug 'vim-airline/vim-airline-themes' " Themes for vim-airline
+Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins'} " Autocomplete
+Plug 'tpope/vim-unimpaired' " Mappings which are simply short normal mode aliases for commonly used ex commands
 Plug 'Raimondi/delimitMate' " Autoclose of quotes, parenthesis, brackets, etc.
+Plug 'scrooloose/nerdcommenter' " Comments shortcuts
+Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --all'} " Fuzzy file finder
+Plug 'tpope/vim-fugitive' " Git wrapper
+Plug 'dyng/ctrlsf.vim' " File search
+Plug 'scrooloose/nerdtree', {'on': ['NERDTreeToggle', 'NERDTreeFind']} " Filetree
+Plug 'vim-scripts/matchit.zip' " Extended % matching
+Plug 'editorconfig/editorconfig-vim' " .editorconfig support
+Plug 'junegunn/goyo.vim', {'on': 'Goyo'} " A4-like formatting for writing
+Plug 'junegunn/limelight.vim', {'on': 'Limelight'} " Highlight areas behind cursor only
 
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Deoplete
-
-" Start screen
-Plug 'mhinz/vim-startify'
-
-Plug 'dag/vim-fish' " Fish syntax and features
-
-" Distraction-free writing
-Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
-
-" Hyperfocus writing
-Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
-
-" Elm
-Plug 'lambdatoast/elm.vim', { 'for': 'elm' }
+" Syntax highlightings
+" --------------------
+Plug 'dag/vim-fish' " Fish
+Plug 'lambdatoast/elm.vim', {'for': 'elm'} " Elm
+Plug 'hhsnopek/vim-sugarss', {'for': 'sugarss'} " Sugarss
+Plug 'pangloss/vim-javascript', {'for': ['jsx', 'javascript']} " JS
+Plug 'mxw/vim-jsx', {'for': ['jsx', 'javascript']} " JSX
+Plug 'hail2u/vim-css3-syntax', {'for': 'css'} " CSS3
+Plug 'othree/html5.vim', {'for': 'html'} " HTML5
+Plug 'mustache/vim-mustache-handlebars', {'for': ['mustache', 'handlebars']} " Mustache & handlebars
 
 call plug#end()

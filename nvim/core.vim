@@ -35,9 +35,9 @@ set nolazyredraw " don't redraw while executing macros
 
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1 " Enable different cursor shapes
 
-autocmd BufWritePre * :%s/\s\+$//e " Remove trailing whitespaces
+autocmd BufWritePre * :%s/\s\+$//e " Remove trailing whitespaces on save
 
-" Highlight closing tag the same way
+" Highlight closing html tag the same way
 highlight link xmlEndTag xmlTag
 
 " Draw comment as italic
@@ -45,6 +45,3 @@ highlight Comment cterm=italic
 
 " Draw html arg as italic
 highlight htmlArg cterm=italic
-
-" Set weird .pcss extension to css filetype
-au BufRead,BufNewFile *.pcss set filetype=css

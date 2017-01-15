@@ -21,6 +21,7 @@ Plug 'vim-scripts/matchit.zip' " Extended % matching
 Plug 'editorconfig/editorconfig-vim' " .editorconfig support
 Plug 'junegunn/goyo.vim', {'on': 'Goyo'} " A4-like formatting for writing
 Plug 'junegunn/limelight.vim', {'on': 'Limelight'} " Highlight areas behind cursor only
+Plug 'w0rp/ale' " Linting made easy
 
 " Syntax highlightings
 " --------------------

@@ -22,6 +22,7 @@ Plug 'editorconfig/editorconfig-vim' " .editorconfig support
 Plug 'junegunn/goyo.vim', {'on': 'Goyo'} " A4-like formatting for writing
 Plug 'junegunn/limelight.vim', {'on': 'Limelight'} " Highlight areas behind cursor only
 Plug 'w0rp/ale' " Linting made easy
+Plug 'airblade/vim-gitgutter' " Show git diffs directly in files
 
 " Syntax highlightings
 " --------------------
